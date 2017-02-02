@@ -4,17 +4,14 @@ Dewegen ist es schwerig die Notsituation zu behandeln, wenn sie allein zu
 Hause oder außer bleiben. Mit SOS Sender in dem Samrtwatch können sie 
 ihre Informationen der Krankenheit und Position nach ihrer Wahl zur 
 Familien oder Krankenhaus rechtzeitig mitteilen.
+
 Szenario:
 Szenario 1: Lauf alleine in Außenort
-
 Wenn man außer laufen möchten, soll man mit Smartwatch in Wach-Modul wechseln. Modul Wechseln: Die Modul wählen und dann Wach-Modul klicken.
-
 1.Wenn man plötzlich hinter fällt, werden die Familien eine SMS mit GPS bekommen.
-
 2.Wenn man sich schlecht fühlt, tippt 3 mal auf dem Smartwatch und wird ein Notsignal mit GPS zur Familien gesendet.
 
 Szenario 2: Schlafen zu Hause
-
 Vor dem Schlafen, kann man Schlaf-Modul einstellen, dann während des Schlaf kann Smartwatch automatisch überwachen. Wenn der Herzschlag aus der Begrenzung geht, dann wird die Notsignal automatisch zum Krankenhaus gesendet.
 Genutzte Features:
 Heart beat Sensor: sammelt die Daten der Herzschlag und zeigt die Gesundheitsinformation.
@@ -44,15 +41,9 @@ Doku/Tutorial noch fehlt
 
 How to use:
 - 1. Einstellung in Application: Modul–Wach oder Schlaf, Herzschlag –von XX bis XX
-
 - 2. Start “LOS GEHEN”
-
 - 3. Lauf simulieren, gucken die Information auf Smartwatch.
-
 - 4. In Funktion“LOS GEHEN” drei mal Screen klicken.
-
 - 5. Wählen “NEIN” unter “Send SOS to Hospital”, dann wird Signal nicht gesendet.
-
 - 5. Noch drei mal Screen klicken, und “JA” wählen, wird Signal gesendet.
-
 - 6. Die Situation vom Fall simulieren (Freie Fall vom Smartwatch), dann die Information auf Smartwatch gucken.
