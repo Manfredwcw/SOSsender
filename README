@@ -1,6 +1,58 @@
-Heutezutage gibt es immer mehre Patienten mit Herz- und Blutkrankenheit. 
+﻿Heutezutage gibt es immer mehre Patienten mit Herz- und Blutkrankenheit. 
 Die Mehrheit davon können nicht immer in Krankenhaus bleiben. 
 Dewegen ist es schwerig die Notsituation zu behandeln, wenn sie allein zu 
 Hause oder außer bleiben. Mit SOS Sender in dem Samrtwatch können sie 
 ihre Informationen der Krankenheit und Position nach ihrer Wahl zur 
 Familien oder Krankenhaus rechtzeitig mitteilen.
+Szenario:
+Szenario 1: Lauf alleine in Außenort
+
+Wenn man außer laufen möchten, soll man mit Smartwatch in Wach-Modul wechseln. Modul Wechseln: Die Modul wählen und dann Wach-Modul klicken.
+
+1.Wenn man plötzlich hinter fällt, werden die Familien eine SMS mit GPS bekommen.
+
+2.Wenn man sich schlecht fühlt, tippt 3 mal auf dem Smartwatch und wird ein Notsignal mit GPS zur Familien gesendet.
+
+Szenario 2: Schlafen zu Hause
+
+Vor dem Schlafen, kann man Schlaf-Modul einstellen, dann während des Schlaf kann Smartwatch automatisch überwachen. Wenn der Herzschlag aus der Begrenzung geht, dann wird die Notsignal automatisch zum Krankenhaus gesendet.
+Genutzte Features:
+Heart beat Sensor: sammelt die Daten der Herzschlag und zeigt die Gesundheitsinformation.
+Gravity/Accelerometer Sensor: Der überwacht, ob man hinter fällt.
+Touchscreen: Die Modul wechseln und Begrenzung des Herzschlages einstellen.
+Optional: Step Counter Sensor: Bewegungsinformation erkennen.
+
+Heuristik Evaluation:
+Visibility of System status 1
+Bei jede Activitz nach Links swipe zu beenden für meiste Leute ist nicht bekannt.
+Benutzer kennt nincht die Folge der Anfangseinstellung.
+Match between system and the real world 2
+Schlaf und Wach Modul verbindet wirkliches Leben eng.
+Control and freedom 2
+Benutzer kann nicht jeder Zeit App beenden oder SOS senden nach Wunsch.
+GPS Location on Server kann nicht öffnen und zeigen.
+Consistency and standards 0
+Error prevention 3
+Es gibt keine Fehlervermeidung.
+Recognition rather than recall 3
+Flexibility and efficiency of use 2
+Sensordaten wird gesendt jede Sekunde, das die Maximalslaufzeit kurz macht.
+Aesthetic and minimalist design 0
+Help users recognize, diagnose, and recover from errors 0
+Help and Documentation 4
+Doku/Tutorial noch fehlt
+
+How to use:
+- 1. Einstellung in Application: Modul–Wach oder Schlaf, Herzschlag –von XX bis XX
+
+- 2. Start “LOS GEHEN”
+
+- 3. Lauf simulieren, gucken die Information auf Smartwatch.
+
+- 4. In Funktion“LOS GEHEN” drei mal Screen klicken.
+
+- 5. Wählen “NEIN” unter “Send SOS to Hospital”, dann wird Signal nicht gesendet.
+
+- 5. Noch drei mal Screen klicken, und “JA” wählen, wird Signal gesendet.
+
+- 6. Die Situation vom Fall simulieren (Freie Fall vom Smartwatch), dann die Information auf Smartwatch gucken.
