@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.luh.hci.sossender.MainActivity"
+    tools:deviceIds="wear">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:paddingBottom="40dp"
+            android:layout_marginBottom="30dp" >
+
+            <TextView
+                android:text="SOS Sender"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/textView"
+                android:textAppearance="@style/TextAppearance.WearDiag.Title"
+                android:textAlignment="center"
+                android:textColor="@color/dark_red"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="Los Gehen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/los"
+                android:background="@drawable/action_item_background" />
+
+            <Button
+                android:text="Modul"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/modul"
+                android:gravity="center"
+                android:background="@drawable/action_item_background" />
+
+            <Button
+                android:text="HERZSCHLAG"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/herzschlag"
+                android:background="@drawable/action_item_background" />
+
+            <Button
+                android:text="KONTAKT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/kontakt"
+                android:background="@drawable/action_item_background" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.wearable.view.BoxInsetLayout>

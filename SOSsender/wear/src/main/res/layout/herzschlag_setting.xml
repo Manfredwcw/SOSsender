@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.luh.hci.sossender.MainActivity"
+    tools:deviceIds="wear">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <NumberPicker
+        android:layout_width="55dp"
+        android:layout_height="140dp"
+        android:id="@+id/herzschlag_high"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/bis" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="von"
+        android:id="@+id/von"
+        android:textSize="20dp"
+        android:layout_above="@+id/herzschlag_low"
+        android:layout_alignStart="@+id/h_ok" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="bis"
+        android:id="@+id/bis"
+        android:textSize="20dp"
+        android:layout_above="@+id/herzschlag_high"
+        android:layout_alignEnd="@+id/h_ok" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="Speichern"
+        android:id="@+id/h_ok"
+        android:layout_below="@+id/herzschlag_high"
+        android:layout_centerHorizontal="true"
+        android:textSize="12dp" />
+
+    <NumberPicker
+        android:layout_width="55dp"
+        android:layout_height="140dp"
+        android:id="@+id/herzschlag_low"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/von" />
+</RelativeLayout>
+</android.support.wearable.view.BoxInsetLayout>

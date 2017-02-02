@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SOSSender</class>
+ <widget class="QMainWindow" name="SOSSender">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1671</width>
+    <height>1177</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Titel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>381</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SOS System für Krankenhaus</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Titel_HerzschlagDaten">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>60</y>
+      <width>341</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Herzschlag Daten zeigen:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_DetektStarten">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>980</y>
+      <width>401</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Detekt starten!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_DetektBeenden">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>980</y>
+      <width>401</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Detekt beenden!</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="HerzschlagDaten">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>180</y>
+      <width>591</width>
+      <height>911</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>200</y>
+      <width>171</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="patient_name">
+       <property name="text">
+        <string>     Name:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="patient_sex">
+       <property name="text">
+        <string>     Sex:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="patient_age">
+       <property name="text">
+        <string>     Age:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="patient_diease">
+       <property name="text">
+        <string>   Disease:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="patient_telephone">
+       <property name="text">
+        <string>     Tel.:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="patient_address">
+       <property name="text">
+        <string>  Address:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>190</y>
+      <width>341</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="lineEdit_name"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_sex"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_age"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_disease"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_tel"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_address"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="photo_label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>200</y>
+      <width>401</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_hilfe">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>20</y>
+      <width>601</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>760</y>
+      <width>501</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_latitude">
+       <property name="text">
+        <string>Latitude:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_longitude">
+       <property name="text">
+        <string>Longitude:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEdit_latitude"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_hilfe_2">
+       <property name="text">
+        <string>Hilfe:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lineEdit_longitude"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="Button_openmap">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>790</y>
+      <width>261</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open GPS in Map</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.luh.hci.sossender.MainActivity"
+    tools:deviceIds="wear">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:paddingBottom="40dp"
+            android:layout_marginBottom="30dp" >
+
+            <TextView
+                android:text="KONTAKT"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/kontakt_top"
+                android:textAppearance="@style/TextAppearance.WearDiag.Title"
+                android:textAlignment="center"
+                android:textColor="@color/green"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="FAMILIE"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/familie"
+                android:background="@drawable/action_item_background" />
+
+            <Button
+                android:text="Arzt"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/arzt"
+                android:gravity="center"
+                android:background="@drawable/action_item_background" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.wearable.view.BoxInsetLayout>
